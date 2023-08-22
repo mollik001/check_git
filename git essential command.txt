@@ -1,3 +1,6 @@
+
+-------->Basic SetUp<--------
+
 git init
 git add README.md
 git commit -m first commit
@@ -6,6 +9,20 @@ git remote add origin httpsgithub.commollik001check_git.git
 git push -u origin main
 
 
+-------->Remote Origin<--------
 
 git remote -v
 git remote remove origin
+
+
+
+-------->Branch<--------
+
+git branch
+git branch -a  //to show local+remote branches
+git branch -r  //just the remote branches
+git fetch origin
+git checkout main
+git branch -D master
+
+
