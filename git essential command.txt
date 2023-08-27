@@ -1,28 +1,44 @@
 
--------->Basic SetUp<--------
+--------> Basic SetUp <--------
 
-git init
-git add README.md
-git commit -m first commit
-git branch -M main  
+git init 
+
+git commit -m "first commit"
+
+git branch -M main  //if you are in another branch except main, but want to push main.
+
 git remote add origin httpsgithub.commollik001check_git.git
+
 git push -u origin main
 
 
--------->Remote Origin<--------
+--------> Remote Origin <--------
 
 git remote -v
+
 git remote remove origin
 
 
 
--------->Branch<--------
+--------> Branch <--------
 
 git branch
+
 git branch -a  //to show local+remote branches
+
 git branch -r  //just the remote branches
+
 git fetch origin
+
 git checkout main
+
 git branch -D master
+
+
+
+--------> Clone <--------
+
+git clone <repository_url>  //clone a github project to local machine.
+
 
 
