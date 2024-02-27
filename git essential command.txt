@@ -3,6 +3,8 @@
 
 git init 
 
+git add .
+
 git commit -m "first commit"
 
 git branch -M main  //if you are in another branch except main, but want to push main.
